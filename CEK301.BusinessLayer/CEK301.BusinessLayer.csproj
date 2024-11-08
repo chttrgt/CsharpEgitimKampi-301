@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CEK301.DataAccessLayer\CEK301.DataAccessLayer.csproj">
+      <Project>{99f7357d-500b-4bc1-a95d-71aa3ee6932f}</Project>
+      <Name>CEK301.DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
