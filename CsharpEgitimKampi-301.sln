@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEK301.BusinessLayer", "CEK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEK301.PresentationLyr", "CEK301.PresentationLyr\CEK301.PresentationLyr.csproj", "{0BE36529-6891-44F6-B0F3-3C518F3559E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEK301.EFProject", "CEK301.EFProject\CEK301.EFProject.csproj", "{DD851C5C-1549-4A71-81B0-495C88CD2125}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0BE36529-6891-44F6-B0F3-3C518F3559E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE36529-6891-44F6-B0F3-3C518F3559E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE36529-6891-44F6-B0F3-3C518F3559E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD851C5C-1549-4A71-81B0-495C88CD2125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD851C5C-1549-4A71-81B0-495C88CD2125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD851C5C-1549-4A71-81B0-495C88CD2125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD851C5C-1549-4A71-81B0-495C88CD2125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
