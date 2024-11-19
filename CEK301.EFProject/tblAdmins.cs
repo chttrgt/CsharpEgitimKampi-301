@@ -12,11 +12,10 @@ namespace CEK301.EFProject
     using System;
     using System.Collections.Generic;
     
-    public partial class tblCustomer
+    public partial class tblAdmins
     {
-        public int CustomerId { get; set; }
-        public string CustomerName { get; set; }
-        public string CustomerSurname { get; set; }
-        public Nullable<decimal> CustomerBalance { get; set; }
+        public int adminId { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }

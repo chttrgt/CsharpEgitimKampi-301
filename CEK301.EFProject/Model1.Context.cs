@@ -29,5 +29,6 @@ namespace CEK301.EFProject
         public virtual DbSet<tblCustomer> tblCustomer { get; set; }
         public virtual DbSet<tblGuide> tblGuide { get; set; }
         public virtual DbSet<tblLocation> tblLocation { get; set; }
+        public virtual DbSet<tblAdmins> tblAdmins { get; set; }
     }
 }
