@@ -48,7 +48,7 @@
           <Property Name="LocationCity" Type="nvarchar" MaxLength="50" />
           <Property Name="LocationCountry" Type="nvarchar" MaxLength="50" />
           <Property Name="LocationCapacity" Type="tinyint" />
-          <Property Name="LocationPrice" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="LocationPrice" Type="decimal" Precision="18" Scale="2" />
           <Property Name="DayNight" Type="nvarchar" MaxLength="50" />
           <Property Name="GuideId" Type="int" />
         </EntityType>
@@ -115,7 +115,7 @@
           <Property Name="LocationCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="LocationCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="LocationCapacity" Type="Byte" />
-          <Property Name="LocationPrice" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="LocationPrice" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="DayNight" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="GuideId" Type="Int32" />
           <NavigationProperty Name="tblGuide" Relationship="Self.FK_tblLocation_tblGuide" FromRole="tblLocation" ToRole="tblGuide" />
