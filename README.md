@@ -38,3 +38,12 @@ Bu yapıyı, **SOLID prensiplerine uygun** şekilde hazırladık ve ileride kull
 Bu repo, eğitim süresince işlenen konuları ve örnek kodları içermektedir. Projede farklı katmanların işlevlerini uygulayarak çok katmanlı mimari yapısının temelini atıyoruz. Eğitimlere katıldıkça dosyayı güncellemeye devam edeceğim.
 
 --- 
+
+## 📜 CEK301 | 24.11.2024 - Entity Framework Linq Sorguları (DB First)
+
+Bu bölümde **Entity Framework** (DB First) yaklaşımı ile **Linq** sorguları kullanılarak **Sql**'de oluşturmuş olduğumuz
+**EgitimKampiEfTravelDB** veri tabanından **Select** işlemleri ile bazı istatistikleri gösteren dashboard tarzı bir form uygulaması geliştirdik.
+
+![Proje Görseli](CEK301.EFProject/images/dashboard.png)
+
+
