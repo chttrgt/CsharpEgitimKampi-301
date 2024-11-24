@@ -24,7 +24,10 @@ namespace CEK301.EFProject
             lblLocationCount.Text = db.tblLocation.Count().ToString();
             lblTotalCapacity.Text = db.tblLocation.Sum(x => x.LocationCapacity).ToString();
             lblGuideCount.Text = db.tblGuide.Count().ToString();
-            lblAverageCount.Text = db.tblLocation.Average(x => x.LocationCapacity).ToString();
+
+            double avg_capacity = double.Parse(db.tblLocation.Average(x => x.LocationCapacity).ToString());
+            lblAverageCount.Text = avg_capacity.ToString("0.00");
+
             decimal avg_price = decimal.Parse(db.tblLocation.Average(x => x.LocationPrice).ToString());
             lblAverageLocationPrice.Text = avg_price.ToString("N2") + " ₺";
 

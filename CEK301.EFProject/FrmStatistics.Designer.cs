@@ -83,7 +83,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.lblLocationCount);
             this.panel1.Controls.Add(this.lblLocationCountTitle);
-            this.panel1.Location = new System.Drawing.Point(13, 15);
+            this.panel1.Location = new System.Drawing.Point(12, 13);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(264, 141);
             this.panel1.TabIndex = 0;
@@ -113,7 +113,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel2.Controls.Add(this.lblTotalCapacity);
             this.panel2.Controls.Add(this.lblTotalCapacityTitle);
-            this.panel2.Location = new System.Drawing.Point(283, 15);
+            this.panel2.Location = new System.Drawing.Point(282, 13);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(264, 141);
             this.panel2.TabIndex = 0;
@@ -143,7 +143,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel3.Controls.Add(this.lblGuideCount);
             this.panel3.Controls.Add(this.lblGuideTitle);
-            this.panel3.Location = new System.Drawing.Point(553, 15);
+            this.panel3.Location = new System.Drawing.Point(552, 13);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(264, 141);
             this.panel3.TabIndex = 0;
@@ -173,7 +173,7 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.panel4.Controls.Add(this.lblAverageCount);
             this.panel4.Controls.Add(this.lblAverageCapTitle);
-            this.panel4.Location = new System.Drawing.Point(823, 15);
+            this.panel4.Location = new System.Drawing.Point(11, 160);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(264, 141);
             this.panel4.TabIndex = 0;
@@ -203,7 +203,7 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel5.Controls.Add(this.lblAverageLocationPrice);
             this.panel5.Controls.Add(this.lblAverageLocationPriceTitle);
-            this.panel5.Location = new System.Drawing.Point(12, 162);
+            this.panel5.Location = new System.Drawing.Point(281, 160);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(264, 141);
             this.panel5.TabIndex = 0;
@@ -233,7 +233,7 @@
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.panel6.Controls.Add(this.lblLastCountery);
             this.panel6.Controls.Add(this.lblLastCounteryTitle);
-            this.panel6.Location = new System.Drawing.Point(283, 162);
+            this.panel6.Location = new System.Drawing.Point(551, 160);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(264, 141);
             this.panel6.TabIndex = 0;
@@ -263,7 +263,7 @@
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel7.Controls.Add(this.lblKapadokyaTurSayisi);
             this.panel7.Controls.Add(this.lblKapadokyaTurSayisiTitle);
-            this.panel7.Location = new System.Drawing.Point(553, 162);
+            this.panel7.Location = new System.Drawing.Point(12, 307);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(264, 141);
             this.panel7.TabIndex = 0;
@@ -293,7 +293,7 @@
             this.panel8.BackColor = System.Drawing.Color.Yellow;
             this.panel8.Controls.Add(this.lblTurCapAvg);
             this.panel8.Controls.Add(this.lblTurCapAvgTitle);
-            this.panel8.Location = new System.Drawing.Point(823, 162);
+            this.panel8.Location = new System.Drawing.Point(282, 307);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(264, 141);
             this.panel8.TabIndex = 0;
@@ -323,7 +323,7 @@
             this.panel9.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel9.Controls.Add(this.lblRomeGuide);
             this.panel9.Controls.Add(this.lblRomeGuideTitle);
-            this.panel9.Location = new System.Drawing.Point(12, 309);
+            this.panel9.Location = new System.Drawing.Point(552, 307);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(264, 141);
             this.panel9.TabIndex = 0;
@@ -353,7 +353,7 @@
             this.panel10.BackColor = System.Drawing.Color.Turquoise;
             this.panel10.Controls.Add(this.lblMaxCapLoc);
             this.panel10.Controls.Add(this.lblMaxCapLocTitle);
-            this.panel10.Location = new System.Drawing.Point(283, 309);
+            this.panel10.Location = new System.Drawing.Point(11, 454);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(264, 141);
             this.panel10.TabIndex = 0;
@@ -383,7 +383,7 @@
             this.panel11.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel11.Controls.Add(this.lblExpensiveLoc);
             this.panel11.Controls.Add(this.lblExpensiveLocTitle);
-            this.panel11.Location = new System.Drawing.Point(553, 309);
+            this.panel11.Location = new System.Drawing.Point(281, 454);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(264, 141);
             this.panel11.TabIndex = 0;
@@ -413,7 +413,7 @@
             this.panel12.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.panel12.Controls.Add(this.lblCihatturgutLocCount);
             this.panel12.Controls.Add(this.lblCihatturgutTitle);
-            this.panel12.Location = new System.Drawing.Point(823, 309);
+            this.panel12.Location = new System.Drawing.Point(552, 454);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(264, 141);
             this.panel12.TabIndex = 0;
@@ -442,7 +442,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1099, 464);
+            this.ClientSize = new System.Drawing.Size(827, 609);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel4);
