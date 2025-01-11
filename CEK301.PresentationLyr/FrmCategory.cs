@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CEK301.PresentationLyr
 {
-    public partial class Form1 : Form
+    public partial class FrmCategory : Form
     {
-        public Form1()
+        public FrmCategory()
         {
             InitializeComponent();
+        }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
