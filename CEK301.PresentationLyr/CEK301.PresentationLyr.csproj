@@ -95,6 +95,14 @@
       <Project>{60f26209-ca2f-484b-a7b4-c6924c618b7f}</Project>
       <Name>CEK301.BusinessLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CEK301.DataAccessLayer\CEK301.DataAccessLayer.csproj">
+      <Project>{99F7357D-500B-4BC1-A95D-71AA3EE6932F}</Project>
+      <Name>CEK301.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CEK301.EntityLayer\CEK301.EntityLayer.csproj">
+      <Project>{6BDCD14D-4EE1-43EB-83EA-C649F06E348D}</Project>
+      <Name>CEK301.EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

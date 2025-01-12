@@ -68,6 +68,7 @@
             this.btnListCategory.TabIndex = 2;
             this.btnListCategory.Text = "Listele";
             this.btnListCategory.UseVisualStyleBackColor = true;
+            this.btnListCategory.Click += new System.EventHandler(this.btnListCategory_Click);
             // 
             // dataGridView1
             // 
@@ -112,6 +113,7 @@
             this.rdbActive.TabStop = true;
             this.rdbActive.Text = "Aktif";
             this.rdbActive.UseVisualStyleBackColor = true;
+            this.rdbActive.CheckedChanged += new System.EventHandler(this.rdbActive_CheckedChanged);
             // 
             // rdbPassive
             // 
@@ -123,6 +125,7 @@
             this.rdbPassive.TabStop = true;
             this.rdbPassive.Text = "Pasif";
             this.rdbPassive.UseVisualStyleBackColor = true;
+            this.rdbPassive.CheckedChanged += new System.EventHandler(this.rdbPassive_CheckedChanged);
             // 
             // btnAddCategory
             // 
@@ -132,6 +135,7 @@
             this.btnAddCategory.TabIndex = 2;
             this.btnAddCategory.Text = "Ekle";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // btnDeleteCategory
             // 
@@ -141,6 +145,7 @@
             this.btnDeleteCategory.TabIndex = 2;
             this.btnDeleteCategory.Text = "Sil";
             this.btnDeleteCategory.UseVisualStyleBackColor = true;
+            this.btnDeleteCategory.Click += new System.EventHandler(this.btnDeleteCategory_Click);
             // 
             // btnUpdateCategory
             // 
@@ -150,6 +155,7 @@
             this.btnUpdateCategory.TabIndex = 2;
             this.btnUpdateCategory.Text = "Güncelle";
             this.btnUpdateCategory.UseVisualStyleBackColor = true;
+            this.btnUpdateCategory.Click += new System.EventHandler(this.btnUpdateCategory_Click);
             // 
             // btnGetCategoryById
             // 
@@ -159,6 +165,7 @@
             this.btnGetCategoryById.TabIndex = 2;
             this.btnGetCategoryById.Text = "Id\'ye göre getir";
             this.btnGetCategoryById.UseVisualStyleBackColor = true;
+            this.btnGetCategoryById.Click += new System.EventHandler(this.btnGetCategoryById_Click);
             // 
             // FrmCategory
             // 
@@ -180,7 +187,6 @@
             this.Controls.Add(this.lblCategoryId);
             this.Name = "FrmCategory";
             this.Text = "Kategoriler";
-            this.Load += new System.EventHandler(this.FrmCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
