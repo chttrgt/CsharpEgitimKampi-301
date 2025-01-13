@@ -67,6 +67,7 @@
             this.btnGetCategoryById.TabIndex = 10;
             this.btnGetCategoryById.Text = "Id\'ye göre getir";
             this.btnGetCategoryById.UseVisualStyleBackColor = true;
+            this.btnGetCategoryById.Click += new System.EventHandler(this.btnGetCategoryById_Click);
             // 
             // btnUpdateCategory
             // 
@@ -76,6 +77,7 @@
             this.btnUpdateCategory.TabIndex = 11;
             this.btnUpdateCategory.Text = "Güncelle";
             this.btnUpdateCategory.UseVisualStyleBackColor = true;
+            this.btnUpdateCategory.Click += new System.EventHandler(this.btnUpdateCategory_Click);
             // 
             // btnDeleteCategory
             // 
@@ -95,6 +97,7 @@
             this.btnAddCategory.TabIndex = 13;
             this.btnAddCategory.Text = "Ekle";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // btnList1
             // 
@@ -242,6 +245,7 @@
             this.Name = "FrmProduct";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProduct";
+            this.Load += new System.EventHandler(this.FrmProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
