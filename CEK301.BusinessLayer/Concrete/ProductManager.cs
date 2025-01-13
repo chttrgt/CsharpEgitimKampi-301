@@ -32,6 +32,11 @@ namespace CEK301.BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
+        public List<object> TGetProductsByCategory()
+        {
+            return _productDal.GetProductsByCategory();
+        }
+
         public void TInsert(Product entity)
         {
             _productDal.Insert(entity);
